@@ -8,8 +8,8 @@ import { Observable } from 'rxjs';
 })
 export class UsuarioService {
 
-  url ='https://gorest.co.in/public/v2/users';
-  token ='924fdbf3586d1b14156c188352b1dd704f98f5e24aa3e326752609236409dbfc';
+  url ='https://gorest.co.in/public-api/users';
+  token ='4f9516ca40737bdb574a508b5cf9b2c33f3b28f87629bf5df9d25f644fe7602b';
   constructor(private http:HttpClient) { }
 
   getUsuarios(): Observable<any>{
